@@ -26,9 +26,9 @@ class ProductUpdateRequest
 
     /**
      * @param string|null $name
-     * @return ProductCreateRequest
+     * @return ProductUpdateRequest
      */
-    public function setName(?string $name): ProductCreateRequest
+    public function setName(?string $name): ProductUpdateRequest
     {
         $this->name = $name;
         return $this;
@@ -44,9 +44,9 @@ class ProductUpdateRequest
 
     /**
      * @param string|null $description
-     * @return ProductCreateRequest
+     * @return ProductUpdateRequest
      */
-    public function setDescription(?string $description): ProductCreateRequest
+    public function setDescription(?string $description): ProductUpdateRequest
     {
         $this->description = $description;
         return $this;
@@ -62,9 +62,9 @@ class ProductUpdateRequest
 
     /**
      * @param float|null $price
-     * @return ProductCreateRequest
+     * @return ProductUpdateRequest
      */
-    public function setPrice(?float $price): ProductCreateRequest
+    public function setPrice(?float $price): ProductUpdateRequest
     {
         $this->price = $price;
         return $this;
