@@ -10,4 +10,4 @@ nelmio_api_doc:
                 Product API<br>Schema <a target="_new" href="/api/v1/doc.json">apidoc.json</a>
             version: 1.0.0
             contact:
-                email: info@microworkers.com
+                email: info@developer.com
