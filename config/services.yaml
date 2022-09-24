@@ -22,3 +22,8 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    _instanceof:
+        # Add the console.command tag to all services defined in this file having this type
+        App\Request\ParamConverter\AbstractJsonRequestParamConverter:
+            tags:
+                - { name: request.param_converter, converter: querystring }

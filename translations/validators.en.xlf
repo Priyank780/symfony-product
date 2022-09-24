@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="messages">
+        <body>
+            <trans-unit id="api_1_0_not_blank">
+                <source>api.1.0.not_blank</source>
+                <target>should not be blank</target>
+            </trans-unit>
+            <trans-unit id="api_1_0_not_null">
+                <source>api.1.0.not_null</source>
+                <target>should not be null</target>
+            </trans-unit>
+            <trans-unit id="api_1_0_choice">
+                <source>api.1.0.choice</source>
+                <target>invalid value</target>
+            </trans-unit>
+            <trans-unit id="api_1_0_is_null">
+                <source>api.1.0.is_null</source>
+                <target>should be null</target>
+            </trans-unit>
+            <trans-unit id="api_1_0_type">
+                <source>api.1.0.type</source>
+                <target>is not a valid {{ type }}</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

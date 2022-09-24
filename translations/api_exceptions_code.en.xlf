@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="api_exceptions_code">
+        <body>
+            <trans-unit id="d24371b1-7b69-415b-b584-ec7633a78657">
+                <source>d24371b1-7b69-415b-b584-ec7633a78657</source>
+                <target>ValidationFailed</target>
+            </trans-unit>
+            <trans-unit id="c1051bb4-d103-4f74-8988-acbcafc7fdc3">
+                <source>c1051bb4-d103-4f74-8988-acbcafc7fdc3</source>
+                <target>IsBlank</target>
+            </trans-unit>
+            <trans-unit id="d158d3e0-26b5-4eb4-a191-d05e7626aea3">
+                <source>d158d3e0-26b5-4eb4-a191-d05e7626aea3</source>
+                <target>InvalidCommandName</target>
+            </trans-unit>
+            <trans-unit id="8e179f1b-97aa-4560-a02f-2a8b42e49df7">
+                <source>8e179f1b-97aa-4560-a02f-2a8b42e49df7</source>
+                <target>InvalidValue</target>
+            </trans-unit>
+            <trans-unit id="ba785a8c-82cb-4283-967c-3cf342181b40">
+                <source>ba785a8c-82cb-4283-967c-3cf342181b40</source>
+                <target>InvalidAlnum</target>
+            </trans-unit>
+            <trans-unit id="57c2f299-1154-4870-89bb-ef3b1f5ad229">
+                <source>57c2f299-1154-4870-89bb-ef3b1f5ad229</source>
+                <target>InvalidURL</target>
+            </trans-unit>
+            <trans-unit id="d8508830-ab4b-43c1-81c9-e8983b63c35d">
+                <source>d8508830-ab4b-43c1-81c9-e8983b63c35d</source>
+                <target>JWTTokenNotFound</target>
+            </trans-unit>
+            <trans-unit id="bd79c0ab-ddba-46cc-a703-a7a4b08de310">
+                <source>bd79c0ab-ddba-46cc-a703-a7a4b08de310</source>
+                <target>InvalidEmailId</target>
+            </trans-unit>
+            <trans-unit id="ad32d13f-c3d4-423b-909a-857b961eb720">
+                <source>ad32d13f-c3d4-423b-909a-857b961eb720</source>
+                <target>IsNull</target>
+            </trans-unit>
+            <trans-unit id="60d2f30b-8cfa-4372-b155-9656634de120">
+                <source>60d2f30b-8cfa-4372-b155-9656634de120</source>
+                <target>NotNull</target>
+            </trans-unit>
+            <trans-unit id="b471c68e-666b-4384-bd48-958c2364dd2b">
+                <source>b471c68e-666b-4384-bd48-958c2364dd2b</source>
+                <target>AlreadyExists</target>
+            </trans-unit>
+            <trans-unit id="8d168158-c074-4c0f-9ac5-289c4faeac86">
+                <source>8d168158-c074-4c0f-9ac5-289c4faeac86</source>
+                <target>AccessDenied</target>
+            </trans-unit>
+            <trans-unit id="9ff3fdc4-b214-49db-8718-39c315e33d45">
+                <source>9ff3fdc4-b214-49db-8718-39c315e33d45</source>
+                <target>TOO_SHORT_ERROR</target>
+            </trans-unit>
+            <trans-unit id="2beabf1c-54c0-4882-a928-05249b26e23b">
+                <source>2beabf1c-54c0-4882-a928-05249b26e23b</source>
+                <target>NOT_TRUE_ERROR</target>
+            </trans-unit>
+            <trans-unit id="227a6fc2-1b11-4c30-bf5b-24a9a555ce0c">
+                <source>227a6fc2-1b11-4c30-bf5b-24a9a555ce0c</source>
+                <target>EMAIL_ALREADY_USED</target>
+            </trans-unit>
+            <trans-unit id="d53a91b0-def3-426a-83d7-269da7ab4200">
+                <source>d53a91b0-def3-426a-83d7-269da7ab4200</source>
+                <target>NOT_FALSE_ERROR</target>
+            </trans-unit>
+            <trans-unit id="4b6f5c76-22b4-409d-af16-fbe823ba9332">
+                <source>4b6f5c76-22b4-409d-af16-fbe823ba9332</source>
+                <target>TOO_SHORT_ERROR</target>
+            </trans-unit>
+            <trans-unit id="d9bcdbfe-a9d6-4bfa-a8ff-da5fd93e0f6d">
+                <source>d9bcdbfe-a9d6-4bfa-a8ff-da5fd93e0f6d</source>
+                <target>WeakPassword</target>
+            </trans-unit>
+            <trans-unit id="d94b19cc-114f-4f44-9cc4-4138e80a87b9">
+                <source>d94b19cc-114f-4f44-9cc4-4138e80a87b9</source>
+                <target>TooLong</target>
+            </trans-unit>
+            <trans-unit id="2d28afcb-e32e-45fb-a815-01c431a86a69">
+                <source>2d28afcb-e32e-45fb-a815-01c431a86a69</source>
+                <target>OutOfRangeTooHigh</target>
+            </trans-unit>
+            <trans-unit id="30fbb013-d015-4232-8b3b-8f3be97a7e14">
+                <source>30fbb013-d015-4232-8b3b-8f3be97a7e14</source>
+                <target>TooHigh</target>
+            </trans-unit>
+            <trans-unit id="478618a7-95ba-473d-9101-cabd45e49115">
+                <source>478618a7-95ba-473d-9101-cabd45e49115</source>
+                <target>NotEqualTo</target>
+            </trans-unit>
+            <trans-unit id="756b1212-697c-468d-a9ad-50dd783bb169">
+                <source>756b1212-697c-468d-a9ad-50dd783bb169</source>
+                <target>TooManyElements</target>
+            </trans-unit>
+            <trans-unit id="76454e69-502c-46c5-9643-f447d837c4d5">
+                <source>76454e69-502c-46c5-9643-f447d837c4d5</source>
+                <target>OutOfRangeTooLow</target>
+            </trans-unit>
+            <trans-unit id="778b7ae0-84d3-481a-9dec-35fdb64b1d78">
+                <source>778b7ae0-84d3-481a-9dec-35fdb64b1d78</source>
+                <target>TooLow</target>
+            </trans-unit>
+            <trans-unit id="8e9fa2fb-b45b-477a-81f9-3b50962ba46d">
+                <source>8e9fa2fb-b45b-477a-81f9-3b50962ba46d</source>
+                <target>JSONRequestInvalid</target>
+            </trans-unit>
+            <trans-unit id="bef8e338-6ae5-4caf-b8e2-50e7b0579e69">
+                <source>bef8e338-6ae5-4caf-b8e2-50e7b0579e69</source>
+                <target>TooFewElements</target>
+            </trans-unit>
+            <trans-unit id="de1e3db3-5ed4-4941-aae4-59f3667cc3a3">
+                <source>de1e3db3-5ed4-4941-aae4-59f3667cc3a3</source>
+                <target>RegexFailed</target>
+            </trans-unit>
+            <trans-unit id="e0b2f694-41c4-4027-94bb-54320193719e">
+                <source>e0b2f694-41c4-4027-94bb-54320193719e</source>
+                <target>FileNotFound</target>
+            </trans-unit>
+            <trans-unit id="ea4e51d1-3342-48bd-87f1-9e672cd90cad">
+                <source>ea4e51d1-3342-48bd-87f1-9e672cd90cad</source>
+                <target>GreaterThanOrEqualTo</target>
+            </trans-unit>
+            <trans-unit id="17db83e5-3cba-46c8-96f3-3bc717be91a0">
+                <source>17db83e5-3cba-46c8-96f3-3bc717be91a0</source>
+                <target>InternalServerError</target>
+            </trans-unit>
+            <trans-unit id="f315b0c1-6f7f-4dd5-9f37-76f9dbb7e4ca">
+                <source>f315b0c1-6f7f-4dd5-9f37-76f9dbb7e4ca</source>
+                <target>NotFound</target>
+            </trans-unit>
+            <trans-unit id="4f4e27c7-0b6b-41b8-9fdb-e89562f88f96">
+                <source>4f4e27c7-0b6b-41b8-9fdb-e89562f88f96</source>
+                <target>HttpMethodNotAllowed</target>
+            </trans-unit>
+            <trans-unit id="d71d68f3-8ef2-40c1-ba28-791e9287b4c8">
+                <source>d71d68f3-8ef2-40c1-ba28-791e9287b4c8</source>
+                <target>UnauthorizedAccess</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

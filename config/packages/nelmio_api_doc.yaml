@@ -1,0 +1,13 @@
+nelmio_api_doc:
+    areas: # to filter documented areas
+        path_patterns:
+            - ^\/api\/v1(?!\/doc|\/doc\.json$)
+    models: { use_jms: false }
+    documentation:
+        info:
+            title: Product API Documentation
+            description: >
+                Product API<br>Schema <a target="_new" href="/api/v1/doc.json">apidoc.json</a>
+            version: 1.0.0
+            contact:
+                email: info@microworkers.com

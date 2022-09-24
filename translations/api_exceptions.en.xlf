@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="api_exceptions">
+        <body>
+            <trans-unit id="d24371b1-7b69-415b-b584-ec7633a78657">
+                <source>d24371b1-7b69-415b-b584-ec7633a78657</source>
+                <target>Validation Failed</target>
+            </trans-unit>
+            <trans-unit id="ad32d13f-c3d4-423b-909a-857b961eb720">
+                <source>ad32d13f-c3d4-423b-909a-857b961eb720</source>
+                <target>Is Null</target>
+            </trans-unit>
+            <trans-unit id="bef8e338-6ae5-4caf-b8e2-50e7b0579e69">
+                <source>bef8e338-6ae5-4caf-b8e2-50e7b0579e69</source>
+                <target>Too Few Elements</target>
+            </trans-unit>
+            <trans-unit id="de1e3db3-5ed4-4941-aae4-59f3667cc3a3">
+                <source>de1e3db3-5ed4-4941-aae4-59f3667cc3a3</source>
+                <target>Regex Failed</target>
+            </trans-unit>
+            <trans-unit id="e0b2f694-41c4-4027-94bb-54320193719e">
+                <source>e0b2f694-41c4-4027-94bb-54320193719e</source>
+                <target>File details not found for given details</target>
+            </trans-unit>
+            <trans-unit id="ea4e51d1-3342-48bd-87f1-9e672cd90cad">
+                <source>ea4e51d1-3342-48bd-87f1-9e672cd90cad</source>
+                <target>GreaterThanOrEqualTo</target>
+            </trans-unit>
+            <trans-unit id="2d28afcb-e32e-45fb-a815-01c431a86a69">
+                <source>2d28afcb-e32e-45fb-a815-01c431a86a69</source>
+                <target>Out Of Range Too High</target>
+            </trans-unit>
+            <trans-unit id="30fbb013-d015-4232-8b3b-8f3be97a7e14">
+                <source>30fbb013-d015-4232-8b3b-8f3be97a7e14</source>
+                <target>Too High</target>
+            </trans-unit>
+            <trans-unit id="478618a7-95ba-473d-9101-cabd45e49115">
+                <source>478618a7-95ba-473d-9101-cabd45e49115</source>
+                <target>Not Equal To</target>
+            </trans-unit>
+            <trans-unit id="756b1212-697c-468d-a9ad-50dd783bb169">
+                <source>756b1212-697c-468d-a9ad-50dd783bb169</source>
+                <target>Too Many Elements</target>
+            </trans-unit>
+            <trans-unit id="76454e69-502c-46c5-9643-f447d837c4d5">
+                <source>76454e69-502c-46c5-9643-f447d837c4d5</source>
+                <target>Out Of Range Too Low</target>
+            </trans-unit>
+            <trans-unit id="778b7ae0-84d3-481a-9dec-35fdb64b1d78">
+                <source>778b7ae0-84d3-481a-9dec-35fdb64b1d78</source>
+                <target>Too Low</target>
+            </trans-unit>
+            <trans-unit id="8e9fa2fb-b45b-477a-81f9-3b50962ba46d">
+                <source>8e9fa2fb-b45b-477a-81f9-3b50962ba46d</source>
+                <target>Error occurred while parsing json request data</target>
+            </trans-unit>
+            <trans-unit id="b471c68e-666b-4384-bd48-958c2364dd2b">
+                <source>b471c68e-666b-4384-bd48-958c2364dd2b</source>
+                <target>The resource that a client tried to create already exists.</target>
+            </trans-unit>
+            <trans-unit id="d8508830-ab4b-43c1-81c9-e8983b63c35d">
+                <source>d8508830-ab4b-43c1-81c9-e8983b63c35d</source>
+                <target>JWT Token not found in cookie.</target>
+            </trans-unit>
+            <trans-unit id="d94b19cc-114f-4f44-9cc4-4138e80a87b9">
+                <source>d94b19cc-114f-4f44-9cc4-4138e80a87b9</source>
+                <target>Too Long</target>
+            </trans-unit>
+            <trans-unit id="d9bcdbfe-a9d6-4bfa-a8ff-da5fd93e0f6d">
+                <source>d9bcdbfe-a9d6-4bfa-a8ff-da5fd93e0f6d</source>
+                <target>Provided password is weak. Please use another password</target>
+            </trans-unit>
+            <trans-unit id="8e179f1b-97aa-4560-a02f-2a8b42e49df7">
+                <source>8e179f1b-97aa-4560-a02f-2a8b42e49df7</source>
+                <target>Invalid value provided</target>
+            </trans-unit>
+            <trans-unit id="c1051bb4-d103-4f74-8988-acbcafc7fdc3">
+                <source>c1051bb4-d103-4f74-8988-acbcafc7fdc3</source>
+                <target>Is Blank</target>
+            </trans-unit>
+            <trans-unit id="ba785a8c-82cb-4283-967c-3cf342181b40">
+                <source>ba785a8c-82cb-4283-967c-3cf342181b40</source>
+                <target>is not a valid alpha-numeric</target>
+            </trans-unit>
+            <trans-unit id="60d2f30b-8cfa-4372-b155-9656634de120">
+                <source>60d2f30b-8cfa-4372-b155-9656634de120</source>
+                <target>Not Null</target>
+            </trans-unit>
+            <trans-unit id="8d168158-c074-4c0f-9ac5-289c4faeac86">
+                <source>8d168158-c074-4c0f-9ac5-289c4faeac86</source>
+                <target>Access denied</target>
+            </trans-unit>
+            <trans-unit id="17db83e5-3cba-46c8-96f3-3bc717be91a0">
+                <source>17db83e5-3cba-46c8-96f3-3bc717be91a0</source>
+                <target>Internal Server Error. Please try later.</target>
+            </trans-unit>
+            <trans-unit id="f315b0c1-6f7f-4dd5-9f37-76f9dbb7e4ca">
+                <source>f315b0c1-6f7f-4dd5-9f37-76f9dbb7e4ca</source>
+                <target>Not found</target>
+            </trans-unit>
+            <trans-unit id="4f4e27c7-0b6b-41b8-9fdb-e89562f88f96">
+                <source>4f4e27c7-0b6b-41b8-9fdb-e89562f88f96</source>
+                <target>Http Method Not Allowed</target>
+            </trans-unit>
+            <trans-unit id="d71d68f3-8ef2-40c1-ba28-791e9287b4c8">
+                <source>d71d68f3-8ef2-40c1-ba28-791e9287b4c8</source>
+                <target>You don't have access to this page. Please check you are logged in and have enough privileges.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
