@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  php-fpm:
+    environment:
+      - APP_ENV=prod
+      - APP_SECRET=efd9cc33888c22ee608250719061d197
+  mysql:
+    volumes:
+      - ./var/data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: xxxxx
+      MYSQL_DATABASE: product
+      MYSQL_USER: product
+      MYSQL_PASSWORD: xxxxx
+  nginx:
+    environment:
+      PRODUCT_API_PORT: 8083
+      NGINX_SERVER_NAME: localhost
+    ports:
+      - "8083:8083"

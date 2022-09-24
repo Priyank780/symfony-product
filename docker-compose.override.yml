@@ -1,0 +1,19 @@
+# WARNING: Only use for DEV env.
+version: '3'
+
+services:
+  mysql:
+    volumes:
+      - ~/product/docker-data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: product
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+  nginx:
+    ports:
+      - "8097:8080"
+  php-fpm:
+    environment:
+      - APP_ENV=dev
+      - APP_SECRET=efd9cc33888c22ee608250719061d197
