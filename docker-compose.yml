@@ -27,6 +27,8 @@ services:
       - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./var/log:/var/log
       - ./docker/nginx/common:/etc/nginx/common
+      - ${SSL_CERTIFICATE}:/etc/ssl/certs/certificate.pem
+      - ${SSL_CERTIFICATE_KEY}:/etc/ssl/private/private.key
     environment:
       PRODUCT_API_PORT: 8080
       NGINX_SERVER_NAME: localhost

@@ -8,4 +8,5 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-docker-data/
+/docker-data/
+/.idea/
