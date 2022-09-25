@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+    <a href="{{ path('app_products_create') }}">Add New Product</a>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+        {% for item in list %}
+            <tr>
+                <td><a href="{{ path('app_products_edit', {id: item.id}) }}">{{ item.id }}</a></td>
+                <td><a href="{{ path('app_products_edit', {id: item.id}) }}">{{ item.name }}</a></td>
+                <td>{{ item.description }}</td>
+                <td>${{ item.price }}</td>
+                <td>{{ item.createdAt|date }}</td>
+                <td>
+                    <form action="{{ path('app_products_delete', {'id': item.id}) }}" method="post">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
