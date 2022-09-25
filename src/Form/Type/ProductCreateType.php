@@ -42,7 +42,7 @@ class ProductCreateType extends AbstractType
             ->add('price', NumberType::class, [
                 'required' => true,
                 'label' => 'Product Price',
-                'help' => 'Product Price',
+                'help' => '',
             ])
             ->add('create', SubmitType::class, [
                 'label' => 'Create',
